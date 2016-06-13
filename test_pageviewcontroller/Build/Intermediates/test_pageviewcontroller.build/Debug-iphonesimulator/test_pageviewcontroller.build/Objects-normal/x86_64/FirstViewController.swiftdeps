@@ -7,15 +7,15 @@ provides-member:
 - ["C23test_pageviewcontroller19FirstViewController", ""]
 provides-dynamic-lookup:
 - "btnClick"
-- "viewDidLoad"
 - "didReceiveMemoryWarning"
+- "viewDidLoad"
 depends-top-level:
+- "FirstViewController"
 - !private "BooleanLiteralType"
 - "UIViewController"
-- "FirstViewController"
-- !private "ViewController"
 - !private "StringLiteralType"
 - "AnyObject"
+- !private "ViewController"
 depends-member:
 - ["Ps9AnyObject", "btnClick"]
 - ["Ps9AnyObject", "didReceiveMemoryWarning"]
